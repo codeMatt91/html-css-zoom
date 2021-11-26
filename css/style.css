@@ -24,7 +24,7 @@
 .view {
   justify-content: flex-end;
   display: flex;
-  height: 100px;
+  height: 150px;
   border: 1px solid white;
 }
 .speaker {
@@ -47,11 +47,44 @@
 main {
   flex-grow: 1;
   border: 1px solid white;
+  overflow: scroll;
 }
 
+.container {
+  width: 85%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.user {
+  position: relative;
+  width: 270px;
+  height: 200px;
+  background-image: url("../img/mountain.jpeg");
+  background-position: center;
+  background-size: cover;
+  margin: 5px;
+}
+.name-user {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  display: inline-block;
+  font-size: 20px;
+  background-color: rgba(74, 74, 74, 0.8);
+}
+
+.name-user::before {
+  font-size: 20px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f131";
+}
 /************* Rules NAV-BAR  ****************/
 
 .nav-bar {
-  height: 150px;
+  height: 200px;
   border: 1px solid white;
 }

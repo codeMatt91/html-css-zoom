@@ -22,22 +22,36 @@
 /*************** RULES VIEW  *************/
 
 .view {
-   height: 100px;
+  justify-content: flex-end;
+  display: flex;
+  height: 100px;
   border: 1px solid white;
+}
+.speaker {
+  border-radius: 10px;
+  margin: 10px 10px 0 0;
+  font-size: 25px;
+  padding: 10px;
+  height: 50px;
+  background-color: rgb(74, 74, 74);
+}
+
+.speaker.logo::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00a";
 }
 
 /*************** RULES MAIN  ****************/
 
 main {
-   flex-grow: 1;
-   border: 1px solid white;
+  flex-grow: 1;
+  border: 1px solid white;
 }
-
-
 
 /************* Rules NAV-BAR  ****************/
 
 .nav-bar {
-   height: 150px;
-   border: 1px solid white;
+  height: 150px;
+  border: 1px solid white;
 }

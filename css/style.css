@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 /************** General RULES  **************/
 
 .body {
@@ -23,20 +22,20 @@
 }
 
 .btn {
-   color: white;
-   margin: 10px 25px 0 0;
-   font-size: 37px;
-   display: inline-flex;
-   flex-direction: column;
-   align-items: center;
+  color: white;
+  margin: 10px 25px 0 0;
+  font-size: 37px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
 }
 .btn.green {
-   color: rgb(110,195,48);
-   margin: 10px 10px 0 0;
+  color: rgb(110, 195, 48);
+  margin: 10px 10px 0 0;
 }
-.btn span{
-   font-size: 15px;
-   margin-top: 10px;
+.btn span {
+  font-size: 15px;
+  margin-top: 10px;
 }
 
 /*************** RULES VIEW  *************/
@@ -45,10 +44,8 @@
   justify-content: flex-end;
   display: flex;
   height: 150px;
-  
 }
 .speaker {
-  
   margin: 10px 10px;
   font-size: 22px;
   padding: 10px;
@@ -68,7 +65,7 @@
 main {
   flex-grow: 1;
   border: 1px solid white;
-  overflow-Y: scroll;
+  overflow-y: scroll;
 }
 
 .container {
@@ -110,37 +107,37 @@ main {
   display: flex;
 }
 .btn-big {
-   display: flex;
-   align-items: center;
-   margin-left: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
 }
 .navbar {
-   display: flex;
-   align-items: center;
+  display: flex;
+  align-items: center;
 }
-.nav-left, .nav-right{
-   flex-basis: 20%;
+.nav-left,
+.nav-right {
+  flex-basis: 20%;
 }
 .navbar.nav-center {
-   flex-grow: 1;
-   justify-content: center;
+  flex-grow: 1;
+  justify-content: center;
 }
 .btn-share {
-   margin-right: 20px;
+  margin-right: 20px;
 }
 .fa-chevron-up {
-   font-size: 12px;
+  font-size: 12px;
 }
-
 
 .nav-right {
-   display: flex;
-   justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 .end-meeting {
-   color: red;
-   background-color: rgb(74,74,74);
-   cursor: pointer;
-   width: 40%;
-   height: 100%;
+  color: red;
+  background-color: rgb(74, 74, 74);
+  cursor: pointer;
+  width: 40%;
+  height: 100%;
 }

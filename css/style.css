@@ -1,6 +1,43 @@
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+.body {
+  font-family: "Lato";
+  color: white;
+}
+
+.wrapper {
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/*************** RULES VIEW  *************/
+
+.view {
+   height: 100px;
+  border: 1px solid white;
+}
+
+/*************** RULES MAIN  ****************/
+
+main {
+   flex-grow: 1;
+   border: 1px solid white;
+}
+
+
+
+/************* Rules NAV-BAR  ****************/
+
+.nav-bar {
+   height: 150px;
+   border: 1px solid white;
+}
